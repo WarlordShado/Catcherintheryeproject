@@ -1,0 +1,111 @@
+:root{
+	--webColor:rgb(0, 47, 255);
+	--webHover:#2239e9;
+}
+
+
+body {
+	margin:0;
+	background-image:linear-gradient(to right,var(--webColor),rgb(60, 0, 255),rgb(21, 103, 235));
+}
+
+ h1, h2 ,h3{
+	text-align: center;
+	background-color:black;
+	color: var(--webColor);
+	border: 5px solid black;
+	border-radius: 25px;
+}	
+
+h2 {
+	font-size: 150%;
+}
+
+#nav {
+	position:fixed;
+	float:left;
+	margin:0;
+	padding: 0;
+	border: 5px solid black;
+	border-color:var(--webColor);
+	width:19%;
+	height:99%;
+	text-align:center;
+	background-color: black;
+}
+
+#navText {
+	font-size:150%;
+	color: var(--webColor);
+}
+
+#navTextHead {
+	padding-top:0;
+	position:fixed;
+	width:18.75%;
+	height:3%;
+	font-size:150%;
+	color: var(--webColor);
+	border: 3px solid black;
+	border-color: var(--webColor);
+}
+
+#navButton {
+	background-color:var(--webColor);
+	border: 5px solid black;
+	border-radius: 15px;
+	font-weight: bold;
+	color:black;
+	padding: 10px 15px;
+	font-size:200%;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+#navButton:hover {
+	background-color:var(--webHover);
+}
+
+#content {
+	margin-left:20%;
+	padding: 1px 16px;
+}
+
+#homeP {
+	font-size:150%;
+	text-align:center;
+	padding-right: 15px;	
+}
+
+img {
+	border: 5px solid black;
+	float:right;
+	word-wrap: break-word;
+}
+
+#tableimg{
+	width: 250px;
+	height: auto;
+}
+
+#CharacterTable,#tableElem{
+	border:3px solid black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tableElem{
+	font-size: 150%;
+}
+
+#Summary {
+	border:10px solid transparent;
+	padding:15px;
+	border-image: url(pics\border.png) 30 round;
+}
+
+#link {
+	font-size:200%;
+	word-wrap: break-word;
+}
