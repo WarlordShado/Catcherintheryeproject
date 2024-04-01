@@ -1,12 +1,6 @@
 :root{
-	--webColor:rgb(119, 0, 255);
-	--webHover:#7f22e9;
-}
-
-
-body {
-	margin:0;
-	background-image:linear-gradient(to right,var(--webColor),rgb(130, 97, 241),rgb(165, 71, 242));
+	--webColor:rgb(255, 255, 255);
+	--webHover:#ffffff;
 }
 
  h1, h2 ,h3{
@@ -20,19 +14,6 @@ body {
 h2 {
 	font-size: 150%;
 }
-
-/*#nav {
-	position:fixed;
-	float:left;
-	margin:0;
-	padding: 0;
-	border: 5px solid black;
-	border-color:var(--webColor);
-	width:19%;
-	height:99%;
-	text-align:center;
-	background-color: black;
-}*/
 
 #navText {
 	font-size:150%;
@@ -66,21 +47,10 @@ h2 {
 	background-color:var(--webHover);
 }
 
-/*#content {
-	margin-left:20%;
-	padding: 1px 16px;
-}*/
-
 #homeP {
 	font-size:150%;
 	text-align:center;
 	padding-right: 15px;	
-}
-
-img {
-	border: 5px solid black;
-	float:right;
-	word-wrap: break-word;
 }
 
 #tableimg{
