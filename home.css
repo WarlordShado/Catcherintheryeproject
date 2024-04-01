@@ -1,12 +1,12 @@
 :root{
-	--webColor:rgb(0, 47, 255);
-	--webHover:#2239e9;
+	--webColor:rgb(119, 0, 255);
+	--webHover:#7f22e9;
 }
 
 
 body {
 	margin:0;
-	background-image:linear-gradient(to right,var(--webColor),rgb(60, 0, 255),rgb(21, 103, 235));
+	background-image:linear-gradient(to right,var(--webColor),rgb(130, 97, 241),rgb(165, 71, 242));
 }
 
  h1, h2 ,h3{
