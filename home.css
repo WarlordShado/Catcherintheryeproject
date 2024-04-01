@@ -100,7 +100,7 @@ img {
 }
 
 #Summary {
-	border:10px solid transparent;
+	border:10px solid black;
 	padding:15px;
 	border-image: url(pics\border.png) 30 round;
 }
