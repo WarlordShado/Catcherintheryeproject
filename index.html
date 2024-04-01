@@ -2,21 +2,23 @@
 <html>
 <head>
 <link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="sidebar.css">
+
 <title> Catcher in the Rye Project </title>
 </head>
 
-<aside id="nav">
-
-	<p id="navTextHead"><b> Nav </b></p><br><br><br><br>
+<div id="nav" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 	<!--Change to Other Page Buttons for New Site -->
 	<button id="navButton" onclick="document.location='Characters.html'"> Characters </button><br> <!--Character-->
 	<button id="navButton" onclick="document.location='other.html'"> Other Info </button><br> <!--Other Info-->
 
-</aside>
+</div>
 
 <body>
 
-<div id="content">
+<div id="main">
+<button class="openbtn" onclick="openNav()">Open Side Bar</button>
 
 <!-- Add Info Below Header -->
 
@@ -33,7 +35,7 @@
 			Holden says the worse thing his dad can do is send him to a military camp <br><br>
 			Phoebe asks Holden if he passed any subjects and says he only passed english <br><br>
 			Phoebe asked why Holden got kicked out of another school, states the school is full of phonies<br><br>
-			Holden says that didn't like the Veterans Day ceramony at Pency <br><br>
+			Holden says that didn't like the Veterans Day ceremony at Pency <br><br>
 			He states that they are a bunch of phonies because they liked Pency and he can't see why they would enjoy it <br><br>
 			Phoebe states that Holden doesn't like anything and asks him to name one thing he likes <br><br>
 			Holden starts thinking about James Castle, a boy who killed himself. (More Info on Characters Page)<br><br>
@@ -52,5 +54,6 @@
 </div>
 
 </body>
+<script src="sidebar.js"></script>
 </html>
 

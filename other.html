@@ -2,22 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="sidebar.css">
 <title> Catcher in the Rye Project </title>
 </head>
 
-<aside id="nav">
 
-	<p id="navTextHead"><b> Nav </b></p><br><br><br><br>
+<div id="nav" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 	<!--Change to Other Page Buttons for New Site -->
     <button id="navButton" onclick="document.location='index.html'"> Home Page </button><br> <!--Home Info-->
 	<button id="navButton" onclick="document.location='Characters.html'"> Characters </button><br> <!--Character-->
-	
-
-</aside>
+</div>
 
 <body>
 
-<div id="content">
+<div id="main">
+<button class="openbtn" onclick="openNav()">Open Side Bar</button>
 
 <!-- Add Info Below Header -->
 
@@ -51,4 +51,5 @@
 </div>
 
 </body>
+<script src="sidebar.js"></script>
 </html>
